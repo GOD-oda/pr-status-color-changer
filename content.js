@@ -1,5 +1,5 @@
 window.onload = function() {
-  const links = document.getElementsByClassName('muted-link tooltipped');
+  const links = document.getElementsByClassName('muted-link');
 
   for (let i = 0; i < links.length; i++) {
     let node = links[i];
